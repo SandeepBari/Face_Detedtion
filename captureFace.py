@@ -35,7 +35,7 @@ while True:
         roi_color = img[y:y + h, x:x + w] 
         #cv2.imwrite(str(w) + str(h) + '_faces.jpg', roi_color) 
     
-    # Stop if escape key is pressed
+    # Stop if Enter key is pressed
     k = cv2.waitKey(10) & 0xff
     if k==13: 
         break    
